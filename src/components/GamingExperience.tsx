@@ -26,9 +26,20 @@ function GamingExperience(params: Params) {
                 </div>
                 <div className="carousel-inner">
                     {gamingCards.map((card, i) => {
+                        const [isLoading, setIsLoading] = useState(true);
+
                         return (
                             <div className={`carousel-item ${(i === 0) ? "active" : ""}`} key={i}>
-                                <video className="d-block w-100 rounded" autoPlay muted loop>
+                                {isLoading && (
+                                    <img className="d-block w-100 rounded" src="/loading_1920x1080.gif" alt="Loading..." />
+                                )}
+                                <video
+                                    className="d-block w-100 rounded"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    onCanPlayThrough={() => setIsLoading(false)}
+                                >
                                     <source src={card.videoPath} type="video/mp4" />
                                 </video>
                                 <div className="carousel-caption d-none d-md-block">
