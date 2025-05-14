@@ -10,7 +10,7 @@ function Nav(params: Params) {
     return (
         <nav id="side-navbar" className="container p-4 h-100 bg-dark text-light text-center">
             <img
-                src="./src/assets/photo.webp"
+                src="/photo.webp"
                 className="w-50 rounded-circle"
                 alt="photo"
             />
