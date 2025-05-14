@@ -1,0 +1,17 @@
+#minesweeper {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#minesweeper table {
+    width: fit-content;
+}
+
+#minesweeper td {
+    border: 0.1em solid black;
+}
+
+#minesweeper td button {
+    width: 2em !important;
+    height: 2em !important;
+    padding: 0;
+}

@@ -1,0 +1,20 @@
+#flipcard {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#flipcard .gamecard {
+    width: 2em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: var(--bs-dark);
+    border-radius: 0.2em;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#flipcard .gamecard:hover {
+    background-color: var(--bs-secondary);
+}

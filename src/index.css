@@ -1,0 +1,7 @@
+* {
+    scrollbar-color: var(--bs-light) var(--bs-dark);
+}
+
+p { 
+    text-align: justify;
+}

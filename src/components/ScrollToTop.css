@@ -1,0 +1,28 @@
+.btn-scrolltotop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    bottom: 0.75em;
+    right: 0.75em;
+    font-size: 2em;
+    padding: 0.25em;
+    z-index: 99;
+    aspect-ratio: 1 / 1;
+    border-radius: 0.25em;
+    transition: 0.3s ease;
+}
+
+.btn-scrolltotop.visible {
+    opacity: 1;
+}
+
+.btn-scrolltotop svg {
+    transition: 0.3s ease;
+}
+
+.btn-scrolltotop:hover svg {
+    transform: scale(2);
+}

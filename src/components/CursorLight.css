@@ -1,0 +1,10 @@
+.cursor-light {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    border-radius: 99em;
+    pointer-events: none;
+    opacity: 0.5;
+    filter: blur(300px);
+    z-index: 0;
+}

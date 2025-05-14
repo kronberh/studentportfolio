@@ -1,0 +1,7 @@
+#header h1 {
+    font-size: 3em;
+}
+
+#header a {
+    transition: 0.3s ease;
+}

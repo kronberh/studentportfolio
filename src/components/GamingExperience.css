@@ -1,0 +1,42 @@
+.carousel-item .carousel-caption {
+    overflow: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.carousel-item:hover .carousel-caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+.carousel-item video {
+    transition: 0.3s ease;
+}
+
+.carousel-item:hover video {
+    filter: brightness(0.3);
+}
+
+.carousel-caption p {
+    text-align: center;
+    color: var(--bs-light);
+}
+
+.carousel-item a.card-text {
+    height: 1.5em;
+    aspect-ratio: 1/1;
+    border-radius: 99em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.carousel-item a.card-text svg {
+    transition: 0.3s ease;
+}
+
+.carousel-item a.card-text:hover svg {
+    transform: scale(1.25);
+}

@@ -1,0 +1,15 @@
+#snake {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#snake table {
+    width: fit-content;
+}
+
+#snake td {
+    background-color: var(--bs-dark);
+    width: 2.2em !important;
+    height: 2.2em !important;
+    padding: 0;
+}
+
