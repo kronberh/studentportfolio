@@ -1,4 +1,6 @@
 import './App.css'
+import '../src/css/bootstrap-5.3.5.min.css';
+import '../src/js/bootstrap-5.3.5.bundle.min.js';
 import { useEffect, useState } from 'react'
 import { CursorLight } from './components/CursorLight.js'
 import { Nav } from './components/Nav'
