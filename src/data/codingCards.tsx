@@ -1,6 +1,6 @@
 import { TbBrandGithubFilled } from "react-icons/tb";
-import { FaGithub } from "react-icons/fa";
-import { SiRender, SiVercel } from "react-icons/si";
+import { FaGithub, FaKaggle, FaTelegramPlane } from "react-icons/fa";
+import { SiRender, SiVercel, SiGooglecolab } from "react-icons/si";
 import { CodingCard } from "../datatypes/CodingCard";
 
 const codingCards: CodingCard[] = [
@@ -109,6 +109,21 @@ const codingCards: CodingCard[] = [
         ],
         links: [
             { icon: <TbBrandGithubFilled />, href: "https://github.com/kronberh/MindUnlocker" }
+        ]
+    },
+    {
+        title: "Flower Classifier Bot",
+        description: "A telegram bot written using pyTelegramBotAPI module. Bot uses torchvision's resnet50 model to classify 299 types of flowers from bogdancretu's Flower-299 database (Kaggle link included in reference list) Google Colab is used to train a model, and bot itself is hosted locally due to no free hosting service accepting model's big-size weights. By the time of writing this description, bot is using a 4-epoch model with approx. 67% validation accuracy. Further model training and bot's interface improvement are planned.",
+        imagePaths: [
+            "/flower_classifier_bot_profile.png",
+            "/flower_classifier_bot_results_1.png",
+            "/flower_classifier_bot_results_2.png"
+        ],
+        links: [
+            { icon: <TbBrandGithubFilled />, href: "https://github.com/kronberh/FlowerClassifierTelegramBot" },
+            { icon: <SiGooglecolab />, href: "https://colab.research.google.com/drive/1C6SEg3UaQF-LkaW34jSGO61bZ4tq0UFR?usp=sharing" },
+            { icon: <FaKaggle />, href: "https://www.kaggle.com/datasets/bogdancretu/flower299" },
+            { icon: <FaTelegramPlane />, href: "https://t.me/itstep_pythonai_ky_test_bot" },
         ]
     }
 ];
